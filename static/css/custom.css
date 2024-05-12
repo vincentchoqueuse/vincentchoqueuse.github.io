@@ -1,0 +1,91 @@
+.txt-blanc {
+    color: white;
+    }
+.fw8 {
+font-weight: 800;
+}
+
+
+ol li {
+    line-height: var(--line-height);
+  }
+
+
+.parent-image-container {
+    display: flex;
+    justify-content: center;  /* Aligns the child horizontally in the center */
+}
+
+  
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.image-container img {
+    height: 100px; /* Fixed height */
+    width: auto; /* Maintain aspect ratio */
+    padding: 40px;
+    filter: grayscale(100%);
+    opacity: 0.5;
+    transition: filter 0.3s ease;
+}
+.image-container img:hover {
+    /* Remove the filter when the user hovers over the image */
+    filter: grayscale(0%);
+    opacity: 1;
+}
+
+
+@media (max-width: 1024px)
+.sm-fs3 {
+font-size: var(--fs-3);
+}
+.font-alt {
+font-family: var(--font-alt);
+}
+body div, body a {
+box-sizing: border-box;
+}
+
+.contenu-custom{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.page-template{
+    padding-top: 0px;
+}
+
+.ba{
+    padding: 20px;
+}
+
+h1{
+    padding-bottom: 20px;
+}
+
+h2{
+    padding-bottom: 10px;
+    color: var(--col2)
+}
+
+.readmore{
+    color: rgb(136, 136, 136);
+}
+
+label{
+    font-weight: bold;
+}
+
+.research{
+    background-color: var(--col2);
+}
+
+.course{
+    background-color: var(--col3);
+}
+
+.other{
+    background-color: var(--col1);
+}

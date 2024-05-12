@@ -1,0 +1,42 @@
+baseURL = "https://github.com/vincentchoqueuse/vincentchoqueuse.github.io/"
+languageCode = 'en-us'
+title = 'Vincent Choqueuse'
+author = "Vincent Choqueuse"
+pygmentsCodeFences = true
+pygmentsStyle = "monokai"  # You can choose other styles
+
+[[menu.main]]
+identifier = "home"
+name = "Home"
+title = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+identifier = "projects"
+name = "Projects"
+title = "Visit our projects"
+url = "/projects/"
+weight = 3
+
+[[menu.main]]
+identifier = "publication"
+name = "Publications"
+title = "Visit our posts"
+url = "/publications/"
+weight = 4
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+title = "About"
+url = "/about/"
+weight = 5
+
+[params]
+  backgroundImage = "images/index.jpeg"
+  
+
+
+[markup.goldmark.renderer]
+unsafe = true
